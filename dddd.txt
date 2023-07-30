@@ -1,0 +1,48 @@
+using System;
+using System.Data.SqlClient;
+using System.IO;
+using System.Linq;
+
+namespace ConsoleAppUpload
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string cs = "data source = DESKTOP-R76BA63\\ADMIN; database = Test; Integrated Security = true";
+            //SqlConnection con = new SqlConnection(cs);
+            //var id = 500;
+            //var name = "hungg";
+            //var diachi = "hhhhh";
+
+            //string query = $@"insert into Customers values ('{name}','{diachi}')";
+            //SqlCommand cmd = new SqlCommand(query, con);
+            //con.Open();
+            //int n = cmd.ExecuteNonQuery();
+            //Console.WriteLine("Soos laanf inssert :"+ n);
+            string[] filePaths = Directory.GetFiles(@"E:\Huan\src\main\resources");
+            foreach (string r in filePaths)
+            {
+                Console.WriteLine(r);
+            }
+            //string[] folders = System.IO.Directory.GetDirectories(@"E:\Huan\src\");
+            // foreach(string item in folders)
+            //{
+            //    Console.WriteLine(item.Substring(item.LastIndexOf("\\")+1));
+            //}
+
+            //int[] array1 = { 1, 2, 4, 3 };
+            //int[] array2 = { 1, 2, 3, 4, 5 };
+            //var element = array2.Except(array1).ToArray();
+            //if (element != null)
+            //{
+            //    foreach (int i in element)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            Console.ReadKey();
+
+        }
+    }
+}
