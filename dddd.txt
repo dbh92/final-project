@@ -42,7 +42,7 @@ namespace ConsoleAppUpload
             //    }
             //}
             Console.ReadKey();
-
+https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
         }
     }
 }
