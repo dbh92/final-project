@@ -43,6 +43,9 @@ namespace ConsoleAppUpload
             //}
             Console.ReadKey();
 https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
+https://docs.devexpress.com/WindowsForms/634/controls-and-libraries/data-grid/data-binding
+https://www.youtube.com/watch?v=25oW2xjagFY
+https://docs.devexpress.com/WindowsForms/114657/controls-and-libraries/data-grid/getting-started/walkthroughs/banded-views/tutorial-banded-grid-view-api
         }
     }
 }
